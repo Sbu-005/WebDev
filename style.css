@@ -1,0 +1,215 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 110vh;
+	font: 15px/1.5 Arial,Helvitica, Sans-Serif;
+	background-color: #f4f4f4;
+}
+
+header {
+	border-bottom: solid ;
+	border-color: orange;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+footer {
+	background-color : orange;
+	color: White;
+	width : 100%;
+	height: 7vh;
+	display: flex;
+	justify-content: center;
+	flex-wrap: nowrap;
+	text-align: center;
+	align-items: center;
+}
+
+ul {
+	list-style: none;
+	display: inline-block;
+}
+
+div {
+	margin: 10px;
+}
+
+span {
+	color: orange;
+}
+
+li {
+	display: inline-block;
+}
+
+li:hover {
+	font-weight: bold;
+	color: #cccccc;
+	cursor: pointer;
+	/*context-menu or default could suffics*/
+}
+
+a {
+	text-decoration: none;
+	color: white;
+
+}
+
+img {
+	width: 90px;
+}
+
+article {
+	margin: 20px;
+	width: 60%;
+}
+
+aside {
+	width :30%;
+	margin-top: 20px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+/*GLOBAL*/
+
+footer p {
+	height: 30%;
+	flex-wrap: nowrap;
+	text-overflow:none;
+}
+
+
+
+.menu {
+	height: 28px;
+	align-self: center;
+}
+
+
+.current {
+	color: orange;
+}
+
+.check {
+	width : 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	visibility: false;
+	align-content: center;
+}
+ 
+.dark {
+	padding: 20px;
+	background-color: #35424a;
+	color: white;
+	display: flex;
+}
+
+.content {
+	max-width: 70%;
+	max-height: 70%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.showcase h1 {
+	font-size: 55px;
+	line-height: 1.5;
+	margin-bottom: 10px;}
+
+.showcase p {
+	font-size : 20px;
+}
+
+
+.showcase {
+	min-height: 400px;
+	background : url("Images/showcase.jpg") no-repeat 0 -400px;
+	color: white;
+	text-align: center;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.newsletter {
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+
+
+button {
+	border: none;
+	background-color: orange;
+	padding: 0px 20px;
+	height: 38px;
+	margin-left: 10px;
+
+}
+
+input {
+	height: 25px;
+	padding: 4px;
+	width: 250px;
+}
+
+.secondary div {
+	margin-top: 30px;
+}
+
+.secondary {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.mail {
+	display: inline-block;
+}
+
+.secondary div {
+	width: 30%;
+}
+
+.about {
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+@media(max-width: 768px) {
+	.secondary {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.secondary div {
+		min-width : 70%;
+	}
+
+
+} 
+
+/* */
